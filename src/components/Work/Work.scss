@@ -1,0 +1,102 @@
+.work{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+    position: relative;
+
+
+    h3{
+        font-size: 28px;
+        color: rgb(190,0,117);
+        margin-top:30px;
+    }
+
+    .carousel{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position:relative;
+    
+        .pro-btn{
+                // z-index: 10;
+                .left-icon,
+                .right-icon{
+                    position: relative;
+                    top: 44vh;
+                    color: rgb(207 160 180 / 15%);
+                    font-size: 2.5rem;
+                    cursor: pointer;
+                }
+
+                .left-icon{
+                    left: -40vw;
+                }
+                .right-icon{
+                    right:-40vw;
+
+                    }
+                .left-icon:hover,
+                .right-icon:hover{
+                    color: rgb(207 160 180 / 84%);
+                    border: 1px solid rgb(190, 0, 117);
+                    border-radius: 50%;
+                }
+
+
+        }
+
+    
+        }
+
+        .active{
+
+            .pro-img{
+                width: 82vw;
+                border-radius: 40px;
+                height: 78vh;
+                border: none;
+            }
+
+            .pro-name{
+                text-align: right;
+                color:#cfa0b4;
+            }
+        }
+
+    }
+
+
+    @media all and (max-width: 600px){
+        .work{
+            .carousel{
+    
+                .pro-btn{
+                    .left-icon{
+                        left: -38vw;
+    
+                    }
+                    .right-icon{
+                        right: -38vw;
+                    }
+                }
+            }
+        }
+    }
+
+    @media all and (max-width: 470px){
+        .work{
+            .carousel{
+    
+                .pro-btn{
+                    .left-icon{
+                        left: -35vw;
+    
+                    }
+                    .right-icon{
+                        right: -35vw;
+                    }
+                }
+            }
+        }
+    }

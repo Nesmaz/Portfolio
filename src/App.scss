@@ -1,0 +1,46 @@
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;   
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+body{
+    background-color: rgb(22 0 26);
+    background-image: url("../public/stars.png");
+    color: #f4caff;
+
+    #scrr{
+
+        position: fixed;
+        bottom: 0;
+        left: 4%;
+        background-color: transparent;
+        font-size:2.4rem;
+        border: none;
+        color: rgba(207, 160, 180, 0.342);
+        cursor: pointer;
+    :hover{
+        color: rgb(207 160 180 / 84%);
+        border: 1px solid rgb(190, 0, 117);
+        border-radius: 50%
+
+    }
+
+    }
+
+}
+
+a{
+    text-decoration: none;
+}
+.sec{
+    height: 100vh;
+    scroll-snap-align: center;
+}
+

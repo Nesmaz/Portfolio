@@ -1,0 +1,229 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    h3{
+        text-align: center;
+        color:rgb(190,0,117);
+        font-size: 2rem;
+    }
+    .c-wrapper{
+        display: flex;
+        justify-content: space-evenly;
+        height: 70vh;
+        margin-bottom: 20px;
+        padding-left: 10vw;
+        position:relative;
+
+            form{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 32vw;
+                border: 2px solid rgb(190, 0, 117);
+                padding: 26px;
+                height: 60vh;
+                border-radius: 15px;
+                background-color: rgb(72 9 86 / 60%);
+            
+            
+
+                .field{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    input{
+                        flex: 2 1;
+                        border-radius: 5px;
+                        border: none;
+                        outline: none;
+                        height: 6vh;
+                        background-color: rgba(17, 1, 20, 0.3);
+                        padding: 10px;
+                        font-size: 1rem;
+                        width: 50%;
+                        color: #f4caff;
+
+                    }
+                    label{
+                        margin-right: 14%;
+                    }
+                }
+
+                .msg{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items:start;
+
+                    textarea{
+                        border:none;
+                        outline:none;
+                        border-radius:5px;
+                        background-color: rgb(17,1,20, 0.3);
+                        padding: 10px;
+                        color: #f4caff;
+                        font-size: 1rem;
+                    }
+                }
+
+                .sub{
+                    text-align:center;
+
+                    input{
+                        width: 12vw;
+                        height: 6vh;
+                        background-color: transparent;
+                        background-image: url("./fushia.png");
+                        background-position: center;
+                        border: none;
+                        background-size: cover;
+                        font-size: 20px;
+                        background-repeat: repeat;
+                        padding-bottom: 12px;
+                        cursor: pointer;
+                        color: #f4caff;
+                    }:hover{
+                        animation: shake 0.5s linear infinite alternate;
+                    }
+                }
+            }
+
+            .info{
+                display: flex;
+                flex-direction: column;
+                width: 22vw;
+                margin-top: 12vh;
+                position: relative;
+
+                .tab{
+                    margin-bottom: 14px;
+                    font-size: 1.2rem;                
+                    a{
+                        display: inline-flex;
+                        justify-content: space-between;
+                        color: #f4caff;
+                        svg{
+                            margin-right: 12px;
+                         }
+
+                    }:hover{
+                        color: rgb(190, 0, 117);
+                    }
+                }
+                .links{
+                    a{
+                        margin-right:20px;
+                        cursor:pointer;
+                    }:hover{
+                        transform: scale(1.4);
+                    }
+                }
+            }
+    }
+
+}
+
+.str{
+    content: "";
+    height: 2px;
+    width: 2px;
+    background-color: rgba(255, 255, 255, 0.52);
+    box-shadow: 0px 0px 5px 4px rgba(186, 152, 184, 0.368627451);
+    display: block;
+    border-radius: 50%;
+    left: 100px;
+    position: absolute;
+    animation: flicker 4s linear 10s infinite;
+
+}
+
+@keyframes flicker {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(-1.5px);
+      }
+
+}
+
+
+@media all and (max-width: 1000px){
+    .contact{
+        .c-wrapper{
+            padding-left: 0;
+        }
+    }
+}
+@media all and (max-width: 940px){
+    .contact{
+
+        .c-wrapper{
+            flex-direction: column-reverse;
+            align-items: center;
+            margin-bottom: 0;
+            height: 85vh;
+
+            form{
+                width: 47vw;
+                margin-bottom: 8px;
+                padding: 20px;
+                background-color: rgb(72 9 86 / 60%);
+                backdrop-filter: none;
+                align-items: normal;
+                justify-content: space-evenly;
+            }
+            .info{
+                width: 40vw;
+                margin-top: -2vh;
+
+                .tab{
+                    margin-bottom: 6px;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+
+@media all and (max-width: 520px){
+.contact{
+    .c-wrapper{
+        form{
+            width: 70vw;
+            .sub{
+                input{
+                    font-size: 16px;
+                    background-image: none;
+                }
+            }
+        }
+        .info{
+            width: 70vw;
+        }
+    }
+}
+}
+
+@media all and (max-width: 400px){
+    .contact{
+        .c-wrapper{
+
+            form{
+              width: 80vw;
+            }
+        }
+    }
+}

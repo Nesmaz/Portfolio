@@ -1,0 +1,105 @@
+main{
+    .wrapper{
+        
+        display: flex;
+        // margin: 20px;
+        padding: 100px 0;
+        justify-content: space-around;
+        .left{
+            display:flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            // margin:auto 0;
+            padding: 4% 0;
+            text-align: center;
+
+            p{
+                margin: 20px;
+            }
+
+            #letters{
+                // margin-top: 20px;
+                margin: 20px;
+                .letter{
+                    display: inline-block;
+                    font-size: 50px;
+                    color: #12c2e9;
+                    // background: -webkit-linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+                    // color: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+                }
+            }
+            h2{
+                font-size: 50px;
+            }
+            .buttons{
+                margin: 15px 0;
+                display: flex;
+                justify-content: space-evenly;
+
+                .btn1{
+                    padding: 8px;
+                    border-radius: 10px;
+                    border: none;
+                    width: 180px;
+                    background-color: aqua;
+                    cursor: pointer;
+                    font-size: 18px;
+                    color: rgb(64 0 78);
+                    font-weight: bold;
+
+                }
+
+                .btn2{
+                    padding: 10px;
+                    border-radius: 10px;
+                    border: none;
+                    background-color: deeppink;
+                    font-size: 16px;
+                    padding: 8px;
+                    color: rgb(244, 202, 255);
+                    font-weight: bold;
+
+                }
+            }
+        }
+
+        .right{
+            img{
+                margin-top: 20px;
+                width: 80%;
+            }
+        }
+
+    }
+}
+
+
+---------------------
+
+
+.parallax{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1{
+        font-size: 100px;
+
+    }
+
+    .mountains{
+        background-image: url("/src/components/Parallax/mountains.png");
+
+    }
+
+    // .planets{
+
+    // }
+
+    // .stars{
+
+    // }
+}
