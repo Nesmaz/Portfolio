@@ -1,16 +1,15 @@
 import React from 'react'
 import './About.scss';
-import js from '/root/react/nesmazportfolio/src/assets/js.png';
-import html from '/root/react/nesmazportfolio/src/assets/html.png';
-import css from '/root/react/nesmazportfolio/src/assets/css.png';
-import sass from '/root/react/nesmazportfolio/src/assets/sass.png';
-import c from '/root/react/nesmazportfolio/src/assets/c.png';
-import react from '/root/react/nesmazportfolio/src/assets/science.png';
-import wp from '/root/react/nesmazportfolio/src/assets/wordpress.png';
-import git from '/root/react/nesmazportfolio/src/assets/git.png';
-import gith from '/root/react/nesmazportfolio/src/assets/github.png';
+import js from '../../assets/js.png';
+import html from '../../assets/html.png';
+import css from '../../assets/css.png';
+import sass from '../../assets/sass.png';
+import c from '../../assets/c.png';
+import react from '../../assets/science.png';
+import wp from '../../assets/wordpress.png';
+import git from '../../assets/git.png';
+import gith from '../../assets/github.png';
 import { FaDownload } from 'react-icons/fa';
-
 
 const About = () => {
 

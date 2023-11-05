@@ -4,10 +4,10 @@ import { useState } from 'react';
 import './Contact.scss';
 import { FiPhoneCall } from 'react-icons/fi';
 import { SiMaildotru } from 'react-icons/si'
-import w from '/root/react/nesmazportfolio/src/assets/whatsapp.png';
-import l from '/root/react/nesmazportfolio/src/assets/linkedin.png';
-import g from '/root/react/nesmazportfolio/src/assets/github.png';
-import d from '/root/react/nesmazportfolio/src/assets/discordd.png';
+import w from '../../assets/whatsapp.png';
+import l from '../../assets/linkedin.png';
+import g from '../../assets/github.png';
+import d from '../../assets/discordd.png';
 
 const Contact = () => {
 
