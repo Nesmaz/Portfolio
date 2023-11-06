@@ -1,6 +1,6 @@
 # Personal Portfolio - React and Sass
 
-This is a personal portfolio website built using React and Sass. It showcases my skills, projects, and experience to potential employers or clients.
+This is a personal portfolio website built using React and Sass. It showcases my skills, projects, and experience and it's continuously updated with new projects.
 
 ## Features
 
