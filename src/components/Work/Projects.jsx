@@ -33,5 +33,10 @@ export const Projects = [
     title: "Music Player",
     src: "https://astounding-axolotl-561912.netlify.app/"
   },
+  {
+    title: "ZipCode info App",
+    src: "https://zipcode-info-app.netlify.app/"
+  },
 
 ]
+
