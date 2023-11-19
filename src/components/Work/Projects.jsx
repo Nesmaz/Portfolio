@@ -1,5 +1,9 @@
 export const Projects = [
   {
+    title: "NETFLIX clone",
+    src: "https://nesmaz-netflix-clone.netlify.app/"
+  },
+  {
     title: "Ecommerce App",
     src: "https://bejewelled-centaur-e15426.netlify.app/"
   },
